@@ -2,6 +2,7 @@ server:
   port: 8888
 ---
 spring:
+   profiles: dev
    datasource:
       name: iot_device_taolin_dev
       type: com.alibaba.druid.pool.DruidDataSource
@@ -23,4 +24,5 @@ spring:
         test-on-return: false
         pool-prepared-statements: false
         max-pool-prepared-statement-per-connection-size: 20
+
 
