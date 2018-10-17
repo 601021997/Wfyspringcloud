@@ -24,6 +24,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer2:8761/eureka
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: 123123
 
 #server:
 #  port: 8761
