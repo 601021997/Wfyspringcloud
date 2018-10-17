@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.service.service.config;
+package com.service.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

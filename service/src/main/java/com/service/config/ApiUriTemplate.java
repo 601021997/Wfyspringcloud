@@ -1,5 +1,8 @@
-package com.service.service.config;
+package com.service.config;
 
+/**
+ * @author wufangyu
+ */
 public class ApiUriTemplate {
 
     private ApiUriTemplate(){}

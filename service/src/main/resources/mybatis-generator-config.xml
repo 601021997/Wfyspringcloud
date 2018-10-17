@@ -18,7 +18,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!-- 实体类生成的位置 -->
-        <javaModelGenerator targetPackage="java\com\service\service\model" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="java\com\service\model" targetProject="src/main">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
                 <!--&lt;!&ndash; 是否允许子包，即targetPackage.schemaName.tableName &ndash;&gt;
@@ -35,7 +35,7 @@
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
         <!-- Mapper 接口文件的位置 -->
-        <javaClientGenerator targetPackage="java\com\service\service\dao" targetProject="src/main/java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="java\com\service\dao" targetProject="src/main" type="XMLMAPPER">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!-- 相关表的配置 -->
