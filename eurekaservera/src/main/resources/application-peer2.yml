@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: discovery-service-eurekaServer2
+---
+spring:
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://peer2:8761/eureka
+#server:
+#  port: 8761
+# eureka:
+ # client:
+  #  register-with-eureka: false
+   # fetch-registry: false
+   # service-url:
+   #  defaultZone: http://localhost:8761/eureka
+ #management:
+  #endpoints:
+   # jmx:
+    #  exposure:
+     #   include: health,info
+#management:
+ # endpoints:
+ #   enabled-by-default: true
+  #endpoint:
+  #  info:
+  #    enabled: true
+
+
