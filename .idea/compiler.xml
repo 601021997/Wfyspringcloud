@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="configclient" />
+        <module name="configserver" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="eurekaservera" />
         <module name="service" />
         <module name="Wfyspringcloud" />
       </profile>

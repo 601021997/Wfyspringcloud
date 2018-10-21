@@ -2,10 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaservera" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
   </component>
 </project>
