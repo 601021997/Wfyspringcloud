@@ -24,12 +24,35 @@ public class ImagesController {
     @GetMapping("getImages")
     public String getOutputStream(HttpServletResponse response) {
 
-            String ids = "这是一个ID的字符串";
+        String ids = "这是一个ID的字符串";
         String s = SocketUtils.socketClient(ids);
-        //StringUtils.strip(list.toString(),"[]");
         System.out.println(s);
         System.out.println("传过去的图片ID字符串"+ids+"多少");
-        return SocketUtils.socketClient(ids);
+        return s;
+    }
+
+    @GetMapping("getO")
+    public String getO(HttpServletResponse response) {
+        try {
+            String path  = "E:\\ww.png";
+            File file = new File(path);
+            FileInputStream fis;
+            fis = new FileInputStream(file);
+            long size = file.length();
+            byte[] temp = new byte[(int) size];
+            fis.read(temp, 0, (int) size);
+            fis.close();
+            byte[] data = temp;
+            response.setContentType("image/*");
+            OutputStream out = response.getOutputStream();
+            System.out.println("data:" + data.toString() + "out:" + out);
+            System.out.println( "out:" + out);
+            out.write(data);
+            return out.toString();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     /*private OutputStream getOut(HttpServletResponse response, String path) {

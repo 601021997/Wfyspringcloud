@@ -35,6 +35,7 @@ public class SocketUtils {
             DataOutputStream dout = new DataOutputStream(out);
             dout.writeUTF("你好，" + s.getInetAddress().getHostAddress() + "  ,你的信息已收到。");
             return in.toString();
+            // return 之后后调用Finally的方法 可以直接return 关流
            /* dout.close();
             s.close();*/
         } catch (Exception e) {
@@ -49,7 +50,7 @@ public class SocketUtils {
         try {
             //因为是在自己本机上演示，IP就直接填写本机10.30.7.95的了。
             //这个端口和IP都是服务器端的(自己可以改的)
-            Socket s = new Socket("127.0.0.1", 8866);
+            Socket s = new Socket("192.168.1.235", 8877);
             //和服务器进行三次握手，若失败则出异常，否则返回和对方通讯的socket
             os = s.getOutputStream();
             //发送数据
@@ -62,14 +63,6 @@ public class SocketUtils {
         } catch (Exception e) {
             e.printStackTrace();
             return "获取数据失败";
-        }finally {
-            try {
-                os.close();
-                din.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
         }
     }
 
@@ -83,7 +76,7 @@ public class SocketUtils {
             fis.read(temp, 0, (int) size);
             fis.close();
             byte[] data = temp;
-            response.setContentType("image/png");
+            response.setContentType("image/*");
             OutputStream out = response.getOutputStream();
             System.out.println("data:" + data.toString() + "out:" + out);
             System.out.println( "out:" + out);

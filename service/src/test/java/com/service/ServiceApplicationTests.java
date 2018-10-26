@@ -1,5 +1,6 @@
 package com.service;
 
+import com.service.socket.ChatServer;
 import com.service.utils.SocketUtils;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +22,27 @@ import java.util.List;
 @SpringBootTest
 public class ServiceApplicationTests {
 
+
+
+    private void buff2Image(byte[] b, String tagSrc) throws Exception {
+        FileOutputStream fout = new FileOutputStream(tagSrc);
+        //将字节写入文件
+        fout.write(b);
+        fout.close();
+    }
+
+
+    private byte[] image2Bytes(String imgSrc) throws Exception {
+        FileInputStream fin = new FileInputStream(new File(imgSrc));
+        //可能溢出,简单起见就不考虑太多,如果太大就要另外想办法，比如一次传入固定长度byte[]
+        byte[] bytes = new byte[fin.available()];
+        //将文件内容写入字节数组，提供测试的case
+        fin.read(bytes);
+        fin.close();
+        return bytes;
+    }
+
+
     private MockHttpServletRequest request;
     private MockHttpServletResponse response;
 
@@ -34,24 +56,7 @@ public class ServiceApplicationTests {
 
     @Test
     public void demo() {
-       /* try {
-            File file = new File("E:\\ww.png");
-            FileInputStream fis;
-            fis = new FileInputStream(file);
-            long size = file.length();
-            byte[] temp = new byte[(int) size];
-            fis.read(temp, 0, (int) size);
-            fis.close();
-            byte[] data = temp;
-            response.setContentType("image/png");
-            OutputStream out = response.getOutputStream();
-            System.out.println("data:"+data.toString() + "out:"+out);
-            out.write(data);
-            out.flush();
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
+        SocketUtils.socketServer();
     }
 
     @Test
@@ -72,57 +77,42 @@ public class ServiceApplicationTests {
 
     @Test
     public void demo2() {
-        String s = SocketUtils.socketServer();
-        System.out.println("接收到的集合图片流");
+        OutputStream os = null;
+        DataInputStream din = null;
+        try {
+            //因为是在自己本机上演示，IP就直接填写本机10.30.7.95的了。
+            //这个端口和IP都是服务器端的(自己可以改的)
+            Socket s = new Socket("192.168.1.235", 8888);
+            //和服务器进行三次握手，若失败则出异常，否则返回和对方通讯的socket
+            os = s.getOutputStream();
+            //发送数据
+            os.write("hahahhah".getBytes());
+            //接收服务器端的反馈
+            InputStream in = s.getInputStream();
+            din = new DataInputStream(in);
+            System.out.println(din.readUTF());
+            s.close();
+            return;
+            //os.close();
+            //din.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+            //return "获取数据失败";
+        }
     }
 
+    @Test
     public void getPictur() {
-
+        try {
+            ChatServer.startServer();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
+    @Test
     public void demo3() {
-        /*while (true) {
-            Socket ClientSocket;
-            ClientSocket = server.accept();    //接受
-            reader = new BufferedReader(new InputStreamReader(ClientSocket
-                    .getInputStream()));
-            writer = new PrintWriter(ClientSocket.getOutputStream());
-            //图片路径
-            String[] str = new String[3];
-            str[0] = "C:/Users/Administrator/Desktop/bloig/3.png";
-            str[1] = "C:/Users/Administrator/Desktop/bloig/2.png";
-            str[2] = "C:/Users/Administrator/Desktop/bloig/1.png";
-            for (int i = 0; i < 3; i++) {
-                try {
-                    File file = new File(str[i]);
-                    FileInputStream input = new FileInputStream(file);
-                   //首先发送文件长度
-                    System.out.println(file.length());
-                    writer.println(file.length());
-                    writer.flush();
-
-                    byte[] buffer = new byte[6000];
-
-                    try {
-                        int num = input.read(buffer);
-                        OutputStream output = ClientSocket.getOutputStream();
-                        OutputStream sendStream = new DataOutputStream(new BufferedOutputStream(output));
-                        while (num != -1) {
-                            sendStream.write(buffer, 0, num);
-                            sendStream.flush();
-                            num = input.read(buffer);
-                        }
-                        input.close();
-                        sendStream.flush();
-                    } catch (IOException e1) {
-                        e1.printStackTrace();
-                    }
-                } catch (FileNotFoundException e1) {
-                    e1.printStackTrace();
-                }
-            }
-        }*/
-
+        SocketUtils.socketClient("去玩儿");
     }
 
     public void demo4() {

@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author wufangyu
+ */
 @RestController
 @Api(value =ApiUriTemplate.APP_ROOT_PATH,description = "api相关接口")
 @RequestMapping("/login")

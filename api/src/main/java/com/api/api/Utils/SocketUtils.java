@@ -2,6 +2,8 @@ package com.api.api.Utils;
 
 import com.alibaba.druid.support.json.JSONUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -18,12 +20,15 @@ import java.util.List;
 @Slf4j
 public class SocketUtils {
 
+    /*@Autowired
+    private static HttpServletResponse httpServletResponse;*/
+
     public static String socketServer(HttpServletResponse response) {
         Socket s  = null;
         DataOutputStream dolt = null;
         try {
             while(true){
-            ServerSocket server = new ServerSocket(8866);
+            ServerSocket server = new ServerSocket(8888);
             log.info("连接服务端获取IP地址HHAHHA" + server.getInetAddress());
             System.out.println("准备接收一个数据...");
             //阻塞式方法
@@ -42,37 +47,31 @@ public class SocketUtils {
                 System.out.println("你好，" + s.getInetAddress().getHostAddress() + "  ,你的信息已收到。" + "获取到的图片流集合:" + serverString);
                 return in.toString();
             }
-
         } catch (Exception e) {
             e.printStackTrace();
             return null;
-        }finally {
-            try {
-                dolt.close();
-                s.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 
-    public static void socketClient(String re) {
+    public static String socketClient(String re) {
+        OutputStream os = null;
+        DataInputStream din = null;
         try {
             //因为是在自己本机上演示，IP就直接填写本机10.30.7.95的了。
             //这个端口和IP都是服务器端的(自己可以改的)
-            Socket s = new Socket("10.30.7.95", 8888);
+            Socket s = new Socket("192.168.1.235", 8877);
             //和服务器进行三次握手，若失败则出异常，否则返回和对方通讯的socket
-            OutputStream os = s.getOutputStream();
+            os = s.getOutputStream();
             //发送数据
             os.write(re.getBytes());
             //接收服务器端的反馈
             InputStream in = s.getInputStream();
-            DataInputStream din = new DataInputStream(in);
+            din = new DataInputStream(in);
             System.out.println(din.readUTF());
-            s.close();
-            din.close();
+            return din.readUTF();
         } catch (Exception e) {
             e.printStackTrace();
+            return "获取数据失败";
         }
     }
 
@@ -81,12 +80,7 @@ public class SocketUtils {
             File file = new File(path);
             FileInputStream fis;
             fis = new FileInputStream(file);
-           /* long size = file.length();
-            byte[] temp = new byte[(int) size];
-            fis.read(temp, 0, (int) size);
-            fis.close();
-            byte[] data = temp;*/
-            response.setContentType("multipart/form-data");
+            response.setContentType("image/*");
             ServletOutputStream out = response.getOutputStream();
             //读取文件流
             int len = 0;
@@ -95,9 +89,6 @@ public class SocketUtils {
                 out.write(buffer,0,len);
             }
             System.out.println("out:" + out);
-            System.out.println("out:" + out);
-            //out.write(data);
-            out.flush();
             return out;
         } catch (Exception e) {
             e.printStackTrace();
@@ -107,26 +98,17 @@ public class SocketUtils {
 
     public static String getServerString(HttpServletResponse response) {
         String path1 = "E:\\ww.png";
-        String path2 = "E:\\qq.png";
-        String path3 = "E:\\qwewq.png";
         OutputStream out1 = SocketUtils.getOut(response, path1);
-
-        OutputStream out2 = SocketUtils.getOut(response, path2);
-        OutputStream out3 = SocketUtils.getOut(response, path3);
-        log.info("out1+out2+out3="+out1.toString()+out2.toString()+out3.toString());
-        OutputStream[] os = new ObjectOutputStream[3];
-        os[0] = out1;
-        os[1] = out2;
-        os[2] = out3;
-        /*List<String> os = new ArrayList<>();
-        os.add(out1.toString());
-        os.add(out2.toString());
-        os.add(out3.toString());*/
+        log.info("out1+out2+out3="+out1.toString());
+        //OutputStream[] os = new ObjectOutputStream[1];
+        //os[0] = out1;
+        List<OutputStream> list = new ArrayList<>();
+        list.add(out1);
         log.info("加入集合");
-        //String s = JSONUtils.toJSONString(os);
-        String ss = os.toString();
+        String strip = StringUtils.strip(list.toString(), "[]");
+        String ss = list.toString();
         System.out.println(ss+"sssssssss");
-        return ss;
+        return strip;
     }
 
 }
