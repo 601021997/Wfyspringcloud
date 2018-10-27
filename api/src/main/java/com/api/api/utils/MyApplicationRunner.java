@@ -1,4 +1,4 @@
-package com.api.api.Utils;
+package com.api.api.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 自启动类之后自动启动
+ *
  * @author wufangyu
  */
 @Slf4j
@@ -22,8 +23,8 @@ public class MyApplicationRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-      log.info("api-spring-boot开始启动");
-       //SocketUtils.socketServer(response);
+        log.info("api-spring-boot开始启动");
+        //SocketUtils.socketServer(response);
 
     }
 

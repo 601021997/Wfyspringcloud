@@ -12,6 +12,7 @@ public interface UseFeignClient {
 
     /**
      * 获取到用户
+     *
      * @param id
      */
     @GetMapping("/getUser/{id}")

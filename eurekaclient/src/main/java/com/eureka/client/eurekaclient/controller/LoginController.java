@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/eureka")
 @Slf4j
 @RestController
-public class LoginController{
+public class LoginController {
 
     @Autowired
     private RestTemplate restTemplate;
@@ -28,15 +28,15 @@ public class LoginController{
     private UseFeignClient useFeignClient;
 
     @GetMapping(value = "getUser")
-    public String getUser(){
-       return "hahha";
+    public String getUser() {
+        return "hahha";
     }
 
 
     @GetMapping("/log-use-instance")
-    public void logUseInstance(){
-        ServiceInstance serviceInstance  = this.loadBalancerClient.choose("选择当前下的哪个节点");
+    public void logUseInstance() {
+        ServiceInstance serviceInstance = this.loadBalancerClient.choose("选择当前下的哪个节点");
         useFeignClient.getUser(1);
-        log.info(serviceInstance.getHost()+"-------"+serviceInstance.getPort()+"-------"+serviceInstance.getServiceId());
+        log.info(serviceInstance.getHost() + "-------" + serviceInstance.getPort() + "-------" + serviceInstance.getServiceId());
     }
 }

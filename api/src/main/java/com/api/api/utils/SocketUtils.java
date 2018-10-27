@@ -1,9 +1,7 @@
-package com.api.api.Utils;
+package com.api.api.utils;
 
-import com.alibaba.druid.support.json.JSONUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -24,15 +22,15 @@ public class SocketUtils {
     private static HttpServletResponse httpServletResponse;*/
 
     public static String socketServer(HttpServletResponse response) {
-        Socket s  = null;
+        Socket s = null;
         DataOutputStream dolt = null;
         try {
-            while(true){
-            ServerSocket server = new ServerSocket(8888);
-            log.info("连接服务端获取IP地址HHAHHA" + server.getInetAddress());
-            System.out.println("准备接收一个数据...");
-            //阻塞式方法
-                s  = server.accept();
+            while (true) {
+                ServerSocket server = new ServerSocket(8888);
+                log.info("连接服务端获取IP地址HHAHHA" + server.getInetAddress());
+                System.out.println("准备接收一个数据...");
+                //阻塞式方法
+                s = server.accept();
                 System.out.println("接收了一个数据哈哈哈哈哈哈哈...");
                 //读--从客户端读数据
                 InputStream in = s.getInputStream();
@@ -85,8 +83,8 @@ public class SocketUtils {
             //读取文件流
             int len = 0;
             byte[] buffer = new byte[1024 * 100];
-            while ((len = fis.read(buffer)) != -1){
-                out.write(buffer,0,len);
+            while ((len = fis.read(buffer)) != -1) {
+                out.write(buffer, 0, len);
             }
             System.out.println("out:" + out);
             return out;
@@ -99,7 +97,7 @@ public class SocketUtils {
     public static String getServerString(HttpServletResponse response) {
         String path1 = "E:\\ww.png";
         OutputStream out1 = SocketUtils.getOut(response, path1);
-        log.info("out1+out2+out3="+out1.toString());
+        log.info("out1+out2+out3=" + out1.toString());
         //OutputStream[] os = new ObjectOutputStream[1];
         //os[0] = out1;
         List<OutputStream> list = new ArrayList<>();
@@ -107,7 +105,7 @@ public class SocketUtils {
         log.info("加入集合");
         String strip = StringUtils.strip(list.toString(), "[]");
         String ss = list.toString();
-        System.out.println(ss+"sssssssss");
+        System.out.println(ss + "sssssssss");
         return strip;
     }
 

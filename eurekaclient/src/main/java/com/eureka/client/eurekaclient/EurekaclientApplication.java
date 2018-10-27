@@ -21,11 +21,12 @@ public class EurekaclientApplication {
     /**
      * Ribbon实现负载均衡
      * restTemplate实现负载均衡
+     *
      * @return
      */
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 }

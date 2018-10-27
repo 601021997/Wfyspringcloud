@@ -1,23 +1,16 @@
-package com.eureka.server.eurekaserver;
+package com.java.foundation;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.function.DoubleSupplier;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaServerApplicationTests {
-
+public class SocketTest {
     @Test
-    public void contextLoads() {
-    }
+    public void demo1(){
 
-    @Test
-    public void demo() {
-        () -> 2
     }
 
 }

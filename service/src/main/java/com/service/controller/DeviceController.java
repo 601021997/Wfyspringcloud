@@ -20,7 +20,7 @@ public class DeviceController {
     private DeviceService deviceService;
 
     @GetMapping("/getDeviceList")
-    public List<DeviceModel> getDeviceList(){
+    public List<DeviceModel> getDeviceList() {
         return deviceService.getDeviceList();
     }
 

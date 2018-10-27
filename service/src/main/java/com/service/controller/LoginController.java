@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @author wufangyu
  */
 @RestController
-@Api(value =ApiUriTemplate.APP_ROOT_PATH,description = "api相关接口")
+@Api(value = ApiUriTemplate.APP_ROOT_PATH, description = "api相关接口")
 @RequestMapping("/login")
 @Slf4j
 public class LoginController {
 
     @ApiOperation("登录相关接口")
     @GetMapping("/login")
-    public String login(){
+    public String login() {
         log.info("这是一个注解");
         return "hahah";
     }

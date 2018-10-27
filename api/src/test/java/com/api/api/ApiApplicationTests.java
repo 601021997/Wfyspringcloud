@@ -1,6 +1,5 @@
 package com.api.api;
 
-import com.api.api.Utils.SocketUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,12 +18,14 @@ public class ApiApplicationTests {
 
     private MockHttpServletRequest request;
     private MockHttpServletResponse response;
+
     @Before
     public void setUp() {
         request = new MockHttpServletRequest();
         request.setCharacterEncoding("UTF-8");
         response = new MockHttpServletResponse();
     }
+
     @Test
     public void test2() {
         String a = "a";
