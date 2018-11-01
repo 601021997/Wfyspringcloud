@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02499df1-8643-484b-9c8d-b3c2ebdb73d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/javafoundation/src/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafoundation/src/reflect/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/DireectBuider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/GongYuBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/builder/PingFangBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/protoType/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/protoType/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaannotation/javaannotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaannotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaannotation/src/main/java/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaannotation/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaannotation/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/singleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/designpattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/src/singleton/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/src/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/src/singleton/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/src/Person3.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/src/singleton/Person3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/src/Person4.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/src/singleton/Person4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaservera/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/eurekaclient/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
     <ignored path="$PROJECT_DIR$/foundation/target/" />
+    <ignored path="$PROJECT_DIR$/javaannotation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +29,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaannotation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bean.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaannotation/src/main/resources/bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaannotation/src/main/java/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaannotation/src/main/java/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -102,6 +145,10 @@
         <option value="$PROJECT_DIR$/singleton/src/builder/GongYuBuilder.java" />
         <option value="$PROJECT_DIR$/singleton/src/builder/DireectBuider.java" />
         <option value="$PROJECT_DIR$/singleton/src/builder/MainClass.java" />
+        <option value="$PROJECT_DIR$/javaannotation/pom.xml" />
+        <option value="$PROJECT_DIR$/javaannotation/src/main/java/Model/Person.java" />
+        <option value="$PROJECT_DIR$/javaannotation/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/javaannotation/src/main/java/MainClass.java" />
       </list>
     </option>
   </component>
@@ -148,6 +195,49 @@
             <path>
               <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="javaannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +426,7 @@
       <workItem from="1540824537095" duration="4228000" />
       <workItem from="1540912116971" duration="637000" />
       <workItem from="1540992860431" duration="2781000" />
-      <workItem from="1541082330898" duration="2619000" />
+      <workItem from="1541082330898" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="IO">
       <created>1540294650893</created>
@@ -359,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540829619387</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="单例模式">
+      <created>1541086017941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541086017941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -395,14 +492,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75981000" />
+    <option name="totallyTimeSpent" value="77309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="853" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3164006" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14812377" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.29163924" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -451,35 +549,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/contorller/ImagesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/controller/ImagesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1145">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/model/DeviceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/socket/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javafoundation/src/main/java/com/config/client/ConfigClientApplication.java" />
     <entry file="file://$PROJECT_DIR$/foundation/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -805,6 +874,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,6 +973,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/contorller/ImagesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaannotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaannotation/src/main/java/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaannotation/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaannotation/src/main/java/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
