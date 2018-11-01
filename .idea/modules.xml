@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo1.iml" filepath="$PROJECT_DIR$/demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton/designpattern.iml" filepath="$PROJECT_DIR$/singleton/designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javafoundation/javafoundation.iml" filepath="$PROJECT_DIR$/javafoundation/javafoundation.iml" />
     </modules>
   </component>
 </project>
