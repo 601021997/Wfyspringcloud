@@ -10,12 +10,18 @@
         <module name="com-wfy-cloud" />
         <module name="configclient" />
         <module name="configserver" />
+        <module name="demo1" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
         <module name="eurekaservera" />
+        <module name="foundation" />
         <module name="service" />
         <module name="Wfyspringcloud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

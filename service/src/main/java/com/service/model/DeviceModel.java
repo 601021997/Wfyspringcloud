@@ -61,7 +61,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.model_id
      *
      * @return the value of device_model.model_id
-     *
      * @mbggenerated
      */
     public Integer getModelId() {
@@ -73,7 +72,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.model_id
      *
      * @param modelId the value for device_model.model_id
-     *
      * @mbggenerated
      */
     public void setModelId(Integer modelId) {
@@ -85,7 +83,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.model_name
      *
      * @return the value of device_model.model_name
-     *
      * @mbggenerated
      */
     public String getModelName() {
@@ -97,7 +94,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.model_name
      *
      * @param modelName the value for device_model.model_name
-     *
      * @mbggenerated
      */
     public void setModelName(String modelName) {
@@ -109,7 +105,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.model_type
      *
      * @return the value of device_model.model_type
-     *
      * @mbggenerated
      */
     public Byte getModelType() {
@@ -121,7 +116,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.model_type
      *
      * @param modelType the value for device_model.model_type
-     *
      * @mbggenerated
      */
     public void setModelType(Byte modelType) {
@@ -133,7 +127,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.relate_model_id
      *
      * @return the value of device_model.relate_model_id
-     *
      * @mbggenerated
      */
     public Integer getRelateModelId() {
@@ -145,7 +138,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.relate_model_id
      *
      * @param relateModelId the value for device_model.relate_model_id
-     *
      * @mbggenerated
      */
     public void setRelateModelId(Integer relateModelId) {
@@ -157,7 +149,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.create_time
      *
      * @return the value of device_model.create_time
-     *
      * @mbggenerated
      */
     public Date getCreateTime() {
@@ -169,7 +160,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.create_time
      *
      * @param createTime the value for device_model.create_time
-     *
      * @mbggenerated
      */
     public void setCreateTime(Date createTime) {
@@ -181,7 +171,6 @@ public class DeviceModel implements Serializable {
      * This method returns the value of the database column device_model.update_time
      *
      * @return the value of device_model.update_time
-     *
      * @mbggenerated
      */
     public Date getUpdateTime() {
@@ -193,7 +182,6 @@ public class DeviceModel implements Serializable {
      * This method sets the value of the database column device_model.update_time
      *
      * @param updateTime the value for device_model.update_time
-     *
      * @mbggenerated
      */
     public void setUpdateTime(Date updateTime) {

@@ -6,6 +6,7 @@ import org.springframework.boot.ApplicationRunner;
 
 /**
  * 自启动类之后自动启动
+ *
  * @author wufangyu
  */
 public class MyApplicationRunner implements ApplicationRunner {

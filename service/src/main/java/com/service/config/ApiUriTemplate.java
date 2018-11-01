@@ -5,7 +5,8 @@ package com.service.config;
  */
 public class ApiUriTemplate {
 
-    private ApiUriTemplate(){}
+    private ApiUriTemplate() {
+    }
 
     public static final String APP_ROOT_PATH = "/wfy-swagger";
 

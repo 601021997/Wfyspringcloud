@@ -10,7 +10,8 @@ import java.util.List;
 public interface DeviceService {
     /**
      * 获取设备列表
-      * @return
+     *
+     * @return
      */
     List<DeviceModel> getDeviceList();
 }

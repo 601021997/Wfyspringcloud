@@ -1,4 +1,4 @@
-package com.api.api.Utils;
+package com.api.api.utils;
 
 public class MyStringBuilder {
 }

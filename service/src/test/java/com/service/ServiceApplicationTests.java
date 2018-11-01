@@ -23,6 +23,7 @@ import java.util.List;
 public class ServiceApplicationTests {
     private MockHttpServletRequest request;
     private MockHttpServletResponse response;
+
     @Before
     public void setUp() {
         request = new MockHttpServletRequest();

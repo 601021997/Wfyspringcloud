@@ -151,7 +151,7 @@
                         </goals>
                     </execution>
                 </executions>-->
-          <!-- maven打包跳过test-->
+                <!-- maven打包跳过test-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

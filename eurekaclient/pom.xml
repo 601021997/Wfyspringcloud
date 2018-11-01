@@ -28,12 +28,11 @@
     </properties>
 
     <dependencies>
-      <!-- 开启eureka 认证  -->
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>-->
-
+        <!-- 开启eureka 认证  -->
+        <!-- <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-security</artifactId>
+         </dependency>-->
 
 
         <dependency>
@@ -41,19 +40,19 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-         <!--引入eureka客户端-->
+        <!--引入eureka客户端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
-       <!-- 引入Ribbon-->
+        <!-- 引入Ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
 
-      <!--  引入feign-->
+        <!--  引入feign-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>

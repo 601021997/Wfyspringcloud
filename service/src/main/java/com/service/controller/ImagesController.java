@@ -27,14 +27,14 @@ public class ImagesController {
         String ids = "这是一个ID的字符串";
         String s = SocketUtils.socketClient(ids);
         System.out.println(s);
-        System.out.println("传过去的图片ID字符串"+ids+"多少");
+        System.out.println("传过去的图片ID字符串" + ids + "多少");
         return s;
     }
 
     @GetMapping("getO")
     public String getO(HttpServletResponse response) {
         try {
-            String path  = "E:\\ww.png";
+            String path = "E:\\ww.png";
             File file = new File(path);
             FileInputStream fis;
             fis = new FileInputStream(file);
@@ -46,7 +46,7 @@ public class ImagesController {
             response.setContentType("image/*");
             OutputStream out = response.getOutputStream();
             System.out.println("data:" + data.toString() + "out:" + out);
-            System.out.println( "out:" + out);
+            System.out.println("out:" + out);
             out.write(data);
             return out.toString();
         } catch (Exception e) {

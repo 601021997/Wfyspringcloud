@@ -79,7 +79,7 @@ public class SocketUtils {
             response.setContentType("image/*");
             OutputStream out = response.getOutputStream();
             System.out.println("data:" + data.toString() + "out:" + out);
-            System.out.println( "out:" + out);
+            System.out.println("out:" + out);
             out.write(data);
             return out;
         } catch (Exception e) {
@@ -88,7 +88,7 @@ public class SocketUtils {
         }
     }
 
-    public static String getServerString(HttpServletResponse response){
+    public static String getServerString(HttpServletResponse response) {
         String path1 = "E:\\ww.png";
         String path2 = "E:\\qq.png";
         OutputStream out1 = SocketUtils.getOut(response, path1);
