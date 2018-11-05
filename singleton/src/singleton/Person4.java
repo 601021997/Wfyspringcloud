@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * 懒汉式2不能保证线程安全
  */
