@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02499df1-8643-484b-9c8d-b3c2ebdb73d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/IOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/singleton.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/Person2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/Person3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/src/Person4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/service/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/service/utils/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/SocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/SocketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaservera/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,12 +26,75 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Person4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/singleton/src/Person4.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/HttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="130">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base64Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/Base64Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceApplicationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5237">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -52,6 +112,7 @@
     <findStrings>
       <find>getServerString</find>
       <find>HttpServletResponse</find>
+      <find>SystemGlobal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,7 +130,6 @@
         <option value="$PROJECT_DIR$/service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/api/api/ApiApplication.java" />
         <option value="$PROJECT_DIR$/api/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/api/api/contorller/ImagesController.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/api/api/Utils/MyApplicationRunner.java" />
@@ -79,7 +139,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/config/MyApplicationRunner.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/utils/Base64Util.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/model/DeviceModel.java" />
-        <option value="$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/socket/ChatServer.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/service/utils/SocketUtils.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/api/api/Utils/SocketUtils.java" />
@@ -94,6 +153,11 @@
         <option value="$PROJECT_DIR$/singleton/src/Person3.java" />
         <option value="$PROJECT_DIR$/singleton/src/Person.java" />
         <option value="$PROJECT_DIR$/singleton/src/Person4.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/service/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/service/utils/HttpClient.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
       </list>
     </option>
   </component>
@@ -111,10 +175,25 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -122,10 +201,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1062" />
-    <option name="y" value="3" />
-    <option name="width" value="834" />
-    <option name="height" value="1045" />
+    <option name="x" value="1065" />
+    <option name="y" value="8" />
+    <option name="width" value="829" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,6 +213,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,20 +225,49 @@
             <path>
               <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-wfy-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wfyspringcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,8 +285,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
       <recent name="com.service.utils" />
+      <recent name="" />
       <recent name="com.api.api.Utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -195,23 +305,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SocketTest.demo1">
+  <component name="RunManager" selected="JUnit.ServiceApplicationTests.images">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SocketTest.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="foundation" />
+    <configuration name="ServiceApplicationTests.images" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.foundation.*" />
+          <option name="PATTERN" value="com.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.java.foundation" />
-      <option name="MAIN_CLASS_NAME" value="com.java.foundation.SocketTest" />
-      <option name="METHOD_NAME" value="demo1" />
+      <option name="PACKAGE_NAME" value="com.service" />
+      <option name="MAIN_CLASS_NAME" value="com.service.ServiceApplicationTests" />
+      <option name="METHOD_NAME" value="images" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -309,13 +419,13 @@
       <item itemvalue="Spring Boot.EurekaclientApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerAApplication" />
-      <item itemvalue="Spring Boot.FoundationApplication" />
       <item itemvalue="Spring Boot.ServiceApplication" />
-      <item itemvalue="JUnit.SocketTest.demo1" />
+      <item itemvalue="Spring Boot.FoundationApplication" />
+      <item itemvalue="JUnit.ServiceApplicationTests.images" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SocketTest.demo1" />
+        <item itemvalue="JUnit.ServiceApplicationTests.images" />
       </list>
     </recent_temporary>
   </component>
@@ -338,6 +448,7 @@
       <workItem from="1540653523130" duration="2401000" />
       <workItem from="1540697350458" duration="3002000" />
       <workItem from="1540824537095" duration="4052000" />
+      <workItem from="1541053660227" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="IO">
       <created>1540294650893</created>
@@ -357,12 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiApplicationTests_test1 - 2018.10.26 at 14h 53m 52s.xml">
-      <configuration name="ApiApplicationTests.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiApplicationTests_test1 - 2018.10.26 at 14h 56m 04s.xml">
-      <configuration name="ApiApplicationTests.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiApplicationTests_test1 - 2018.10.26 at 14h 57m 24s.xml">
       <configuration name="ApiApplicationTests.test1" configurationId="JUnit" />
     </history-entry>
@@ -387,17 +492,23 @@
     <history-entry file="SocketTest_demo1 - 2018.10.27 at 23h 39m 31s.xml">
       <configuration name="SocketTest.demo1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ServiceApplicationTests_images - 2018.11.01 at 15h 29m 17s.xml">
+      <configuration name="ServiceApplicationTests.images" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceApplicationTests_images - 2018.11.01 at 17h 07m 00s.xml">
+      <configuration name="ServiceApplicationTests.images" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69768000" />
+    <option name="totallyTimeSpent" value="76397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1577" height="853" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.316474" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1533904" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.051172707" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -405,8 +516,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42774567" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3635347" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.17225951" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -415,7 +527,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.7182081" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20144832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -423,7 +535,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.2731214" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -441,56 +552,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE-sources.jar!/org/springframework/boot/ApplicationRunner.java" />
-    <entry file="uml://JAVA/javax.servlet.http.HttpServletResponse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.http.HttpServletResponse</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.ServletResponse</node>
-            <node x="" y="">javax.servlet.http.HttpServletResponse</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="55.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34-sources.jar!/javax/servlet/http/HttpServletResponse.java" />
-    <entry file="uml://JAVA/javax.servlet.ServletResponse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>javax.servlet.ServletResponse</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.ServletResponse</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34-sources.jar!/javax/servlet/ServletResponse.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE-sources.jar!/org/springframework/mock/web/MockHttpServletResponse.java" />
     <entry file="file://$PROJECT_DIR$/service/src/main/resources/application.yml">
@@ -511,20 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -557,16 +622,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javafoundation/src/main/java/com/config/client/ConfigClientApplication.java" />
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://MAVEN/com.api:api:0.0.1-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -671,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/utils/MyStringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/Utils/MyStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
@@ -688,13 +743,7 @@
     <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/pom.xml" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/ApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -702,97 +751,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/FoundationApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/java/foundation/FoundationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/lang/annotation/Native.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/SocketAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="117" column="46" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/SocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/SocketOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5605">
-          <caret line="318" column="8" selection-start-line="318" selection-start-column="8" selection-end-line="318" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/io/FilterOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/io/DataOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/io/FilterInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/io/DataInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4262">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/FoundationApplicationTests.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/lang/annotation/Native.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/Proxy.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/SocketAddress.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/Socket.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/SocketImpl.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/SocketOptions.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/io/FilterOutputStream.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/io/DataOutputStream.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/io/FilterInputStream.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/io/DataInputStream.java" />
+    <entry file="jar://D:/jdk/src.zip!/java/net/ServerSocket.java" />
     <entry file="file://$PROJECT_DIR$/api/src/test/java/com/api/api/ApiApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -800,14 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/utils/MyApplicationRunner.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/Utils/MyApplicationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
@@ -821,64 +784,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/utils/SocketUtils.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/api/api/Utils/SocketUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/SocketTest.java">
+    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/singleton/src/Person.java" />
+    <entry file="file://$PROJECT_DIR$/singleton/src/Person3.java" />
+    <entry file="file://$PROJECT_DIR$/singleton/src/Person2.java" />
+    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/IOTest.java" />
+    <entry file="file://$PROJECT_DIR$/singleton/src/Person4.java" />
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="201">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/java/foundation/FoundationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/HttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/Person3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/Person2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/test/java/com/java/foundation/IOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="130">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/Person4.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/service/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="-5237">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/service/ServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
