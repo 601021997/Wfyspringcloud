@@ -2,6 +2,7 @@ package decoration;
 
 import decoration.concreteComponent.Man;
 import decoration.concreteDecorator.ManDecoratorA;
+import decoration.concreteDecorator.ManDecoratorB;
 
 /**
  * @author wufangyu
@@ -24,6 +25,12 @@ public class MainClass {
         ManDecoratorA manDecoratorA = new ManDecoratorA();
         manDecoratorA.setPerson(man);
         manDecoratorA.eat();
+
+        System.out.println("=======================");
+
+        ManDecoratorB manDecoratorB = new ManDecoratorB();
+        manDecoratorB.setPerson(man);
+        manDecoratorB.eat();
 
     }
 

@@ -12,6 +12,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author wufangyu
+ */
 public class ChatServer {
 
     private static List<Socket> sockets = new ArrayList<>();

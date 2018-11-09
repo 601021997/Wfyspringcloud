@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -14,7 +15,8 @@
         <module name="eurekaserver" />
         <module name="eurekaservera" />
         <module name="foundation" />
-        <module name="javaannotation" />
+        <module name="my-site" />
+        <module name="mybatis" />
         <module name="service" />
         <module name="Wfyspringcloud" />
       </profile>
@@ -22,6 +24,7 @@
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="demo1" target="1.5" />
+      <module name="javaannotation" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
