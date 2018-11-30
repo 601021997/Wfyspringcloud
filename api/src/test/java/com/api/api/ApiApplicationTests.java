@@ -37,4 +37,9 @@ public class ApiApplicationTests {
         System.out.println(join);
     }
 
+    @Test
+    public void test3(){
+        com.api.api.utils.SocketUtils.socketServer(response);
+    }
+
 }

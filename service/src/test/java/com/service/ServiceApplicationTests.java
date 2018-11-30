@@ -56,6 +56,15 @@ public class ServiceApplicationTests {
     }
 
 
+    @Test
+    public void testc(){
+        try {
+            ChatServer.startServer();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     //图片到byte数组
     public byte[] image2byte(String path) {
         byte[] data = null;

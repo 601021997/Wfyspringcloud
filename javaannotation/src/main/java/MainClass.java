@@ -9,6 +9,7 @@ public class MainClass {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
         Person person = (Person) applicationContext.getBean("person");
 
+       //Thread.getState();
 
     }
 
